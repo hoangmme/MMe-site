@@ -1,0 +1,14 @@
+@font-face {
+   font-family: 'Montserrat Subrayada';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///D:/Users/Sager/Documents/MMe-site/fonts/Montserrat Subrayada/700.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Montserrat Subrayada';
+   font-style: regular;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///D:/Users/Sager/Documents/MMe-site/fonts/Montserrat Subrayada/regular.ttf') format('truetype');
+}

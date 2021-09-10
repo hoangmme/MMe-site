@@ -1,0 +1,61 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?c291057a9a136192b208e1f112170a47") format("truetype"),
+url("./flaticon.woff?c291057a9a136192b208e1f112170a47") format("woff"),
+url("./flaticon.woff2?c291057a9a136192b208e1f112170a47") format("woff2"),
+url("./flaticon.eot?c291057a9a136192b208e1f112170a47#iefix") format("embedded-opentype"),
+url("./flaticon.svg?c291057a9a136192b208e1f112170a47#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "facebook": "\f101",
+    "facebook-logo": "\f102",
+    "facebook-1": "\f103",
+    "call": "\f104",
+    "phone-call": "\f105",
+    "phone-call-1": "\f106",
+    "search-1": "\f107",
+    "search-2": "\f108",
+    "zoom": "\f109",
+);
+
+.flaticon-facebook:before {
+    content: map-get($flaticon-map, "facebook");
+}
+.flaticon-facebook-logo:before {
+    content: map-get($flaticon-map, "facebook-logo");
+}
+.flaticon-facebook-1:before {
+    content: map-get($flaticon-map, "facebook-1");
+}
+.flaticon-call:before {
+    content: map-get($flaticon-map, "call");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-phone-call-1:before {
+    content: map-get($flaticon-map, "phone-call-1");
+}
+.flaticon-search-1:before {
+    content: map-get($flaticon-map, "search-1");
+}
+.flaticon-search-2:before {
+    content: map-get($flaticon-map, "search-2");
+}
+.flaticon-zoom:before {
+    content: map-get($flaticon-map, "zoom");
+}
